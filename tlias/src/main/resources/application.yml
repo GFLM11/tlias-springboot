@@ -26,8 +26,8 @@ mybatis:
 aliyun:
   oss:
     endpoint: https://oss-cn-beijing.aliyuncs.com
-    accessKeyId: LTAI5tQMVXRbR3MS244Pbra5
-    accessKeySecret: sEK8mHPBy4wzj3EL2023buTRNRrFVG
+    accessKeyId: 
+    accessKeySecret: 
     bucketName: springboot-web-tlias-bucket
 
 #spring事务管理日志
