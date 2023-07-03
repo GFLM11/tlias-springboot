@@ -1,0 +1,4 @@
+# Project exclude paths
+/tlias/target/
+/tlias-pojo/target/
+/tlias-utils/target/

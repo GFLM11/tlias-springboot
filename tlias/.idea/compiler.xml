@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-autoconfiguration-test" />
+        <module name="tlias" />
+        <module name="tlias-pojo" />
+        <module name="aliyun-oss-springboot-autoconfigure" />
+        <module name="tlias-utils" />
+        <module name="aliyun-oss-springboot-start" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11">
+      <module name="aliyun-oss-springboot-autoconfigure" target="11" />
+      <module name="aliyun-oss-springboot-start" target="11" />
+      <module name="springboot-autoconfiguration-test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="aliyun-oss-springboot-autoconfigure" options="-parameters" />
+      <module name="aliyun-oss-springboot-start" options="-parameters" />
+      <module name="springboot-autoconfiguration-test" options="-parameters" />
+      <module name="tlias" options="-parameters" />
+      <module name="tlias-pojo" options="-parameters" />
+      <module name="tlias-utils" options="-parameters" />
+    </option>
+  </component>
+</project>
